@@ -1,0 +1,212 @@
+/* website stylesheet */
+
+* {
+   padding: 0;
+   margin: 0;
+   text-decoration:none;
+   color:#000
+   box-sizing: border-box;
+}
+
+img { border-style: none; }
+ul { list-style-type:none; }
+
+.wrapper {
+   max-width: 960px;
+   margin: auto;
+}
+
+.header {
+   margin: 0.5em;
+}
+
+.title {
+   color: #000;
+   font-size: 3em;
+	font-family: 'Crimson Text', serif;
+
+}
+
+.navibar {
+	padding:0.34em 0.5em;
+	background-color: #000;
+}
+
+.navibar ul {
+	margin:0;
+	padding:0;
+}
+.navibar li {
+   flex: 1 25%;
+	font-family: 'Work Sans', Helvetica, sans-serif;
+	font-weight: 600;
+	font-size: 1em;
+	padding:0.34em 0em;
+	margin:0;
+	display:inline;
+	border-right:solid;
+	border-color:#999;
+	border-width:1px;
+
+
+}
+.navibar li a:link, .navibar li a:visited {
+	text-decoration:none;
+	color:#FFF;
+	margin:0;
+	padding:0.34em 0.8em;
+
+}
+.navibar li a:hover, .navibar li a:active {
+	text-decoration:none;
+	color:#FFF;
+	background-color:#000;
+	outline: none;
+	border-bottom: 7px solid #FFCCCC;
+}
+
+.main {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 2em 0.5em;
+}
+
+p {
+	color: #555;
+	padding: 5px 0;
+	font-family: 'Work Sans', Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 0.95em;
+	line-height: 1.5em;
+}
+
+.main1 {
+   flex: 1 50%;
+   border-left: solid 0.5em #FFCCCC;
+   padding: 0 1em;
+   margin: 1em 0;
+}
+
+.main2 {
+   flex: 1 40%;
+	background-color:#F2F2F2;
+	text-align:center;
+   padding: 1em;
+   margin: 1em 0;
+}
+.main2 ul {
+	margin: 1em auto;
+}
+
+.main2 li {
+	font-size:0.75em;
+   font-family: 'Work Sans', Helvetica, sans-serif;
+	font-weight: 300;
+	color:#777;
+}
+.main2 li#name {
+	font-size: 1em;
+}
+
+
+span.yellow {
+	font-family: 'Work Sans', Helvetica, sans-serif;
+	font-weight: 600;
+	padding-bottom: 100px;
+}
+
+
+.footer {
+	height:5em;
+	border-top:1px dashed #555;
+}
+
+#email {margin-top:10px; }
+
+
+/* publication */
+
+.publication {
+   margin: 3em 5em;
+}
+.publication li{
+   font-size: 0.95em;
+   font-family: 'Work Sans', Helvetica, sans-serif;
+	font-weight: 300;
+	color:#555;
+}
+
+ul.pdf {
+   margin: 1.5em 0 5em 0;
+}
+
+ul.pdf a:link, .pdf a:visited{
+	font-family: 'Work Sans', Helvetica, sans-serif;
+}
+ul.pdf a:hover, .pdf a:active {
+	border-bottom: 1px dashed #000;
+}
+
+li.white {
+	padding: 0.2em 1em 0em 1em;
+	margin: 0.5em 0;
+	border-left: solid 0.5em #FFCCCC;
+}
+
+a {
+   color: #FF9E9E;
+}
+
+
+/* research */
+.grid {
+   display: grid;
+   align-items: top;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   margin: 2em 0.5em;
+   grid-gap: 2em;
+}
+
+.card {
+   border-left: 0.56em solid #ffcccc;
+   padding: 0 1em;
+   margin: 1em 0;
+}
+
+
+.c1 {
+   background-image: url('images/fishing.jpg');
+   background-position: center bottom;
+   background-size: 300px auto;
+   background-repeat:no-repeat;
+   padding-bottom: 15em;
+}
+
+.c2 {
+   background-image: url('images/humans.png');
+   background-position: center bottom;
+   background-size: 300px auto;
+   background-repeat:no-repeat;
+   padding-bottom: 15em;
+}
+
+.c3 {
+   background-image: url('images/hydrophone.png');
+   background-position: center bottom;
+   background-size: 300px auto;
+   background-repeat:no-repeat;
+   padding-bottom: 15em;
+}
+
+
+.c4 {
+   background-image: url('images/stickleback.jpg');
+   background-position: center bottom;
+   background-size: 300px auto;
+   background-repeat:no-repeat;
+   padding-bottom: 15em;
+}
+
+
+.italize { font-style: italic; }
+.line { border-bottom:1px dashed #000; }
